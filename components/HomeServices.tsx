@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 const HomeServices = () => {
   const services = [
@@ -35,14 +35,13 @@ const HomeServices = () => {
   ];
 
   return (
-    <section className="bg-white px-5 py-16">
+    <section className="bg-white px-5 py-16 mt-30">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 sm:flex-row">
         <div className="w-full sm:w-1/2">
-          <Image
+          <img
             src="/homeservice.jfif"
             alt="Hospital services"
-            width={500}
-            height={500}
+          
             className="w-full rounded-2xl border-2 border-cyan-400 object-cover transition hover:border-cyan-600"
           />
         </div>

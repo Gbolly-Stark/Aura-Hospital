@@ -26,7 +26,7 @@ const Navbar = () => {
           height={75}
         />
 
-        {/* Desktop Links (Hidden on small screens, shown on md screens and up) */}
+        
         <div className="hidden md:flex gap-6">
           {navLinks.map((link) => (
             <Link
@@ -39,14 +39,14 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Desktop Appointment Button (Hidden on small screens) */}
+      
         <div className="hidden md:flex bg-cyan-400 rounded-xl justify-center hover:bg-cyan-300 transition">
           <button className="py-3 px-4 font-bold text-white cursor-pointer">
             Appointment
           </button>
         </div>
 
-        {/* Mobile Toggle Button (Shown on small screens, hidden on md screens) */}
+        
         <div className="md:hidden flex items-center">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -77,7 +77,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Dropdown (Only appears when isOpen is true) */}
+      
       {isOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 flex flex-col gap-4">
           {navLinks.map((link) => (
@@ -92,7 +92,8 @@ const Navbar = () => {
           ))}
 
           <div className="bg-cyan-400 rounded-xl text-center mt-2">
-            <button className="py-3 w-full font-bold text-white">
+            <button className="py-3 w-full font-bold text-white"
+            href={"/contact"}>
               Appointment
             </button>
           </div>

@@ -1,0 +1,4 @@
+[33m037ac91[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{0}: rebase (abort): returning to refs/heads/master
+[33m7253543[m HEAD@{1}: commit: Done with Home Page
+[33m2a06674[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{2}: pull origin main --rebase (start): checkout 2a06674b1d74052bda6aebfee92b6d746bea74fb
+[33m037ac91[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m HEAD@{3}: commit (initial): Initial commit

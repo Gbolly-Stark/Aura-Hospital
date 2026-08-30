@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { Aladin } from "next/font/google";
 
 const aladin = Aladin({
@@ -10,12 +10,12 @@ const HomeHero = () => {
   return (
     <section className="w-full">
       <div className="relative h-[550px] h-[630px]">
-        <Image
+        <img
           src="/hero.jfif"
           alt="Aura Hospital building"
           fill
           loading="eager"
-          className="object-cover object-right"
+          className="object-cover object-right w-full h-185"
         />
 
         <div className="absolute inset-0 bg-slate-950/40" />
@@ -41,7 +41,7 @@ const HomeHero = () => {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <button
               type="button"
-              className="rounded-2xl border-2 border-white bg-cyan-400 px-5 py-2 text-lg font-normal text-slate-900 transition hover:bg-cyan-200"
+              className="rounded-2xl border-2 border-white bg-cyan-400 px-5 py-2 text-lg font-normal text-white ransition hover:bg-cyan-200"
             >
               Explore More
             </button>

@@ -70,21 +70,21 @@ const HomeWhy = () => {
 
   return (
     <section>
-      <div className="mt-12 text-center">
+      <div className="mt-12 text-center w-auto">
         <p className="text-cyan-400 text-xs font-bold sm:text-xs">WHY US?</p>
-        <h3 className="mt-2 text-xl font-bold text-black md:text-4xl">
+        <h3 className="mt-2 text-2xl font-bold text-black md:text-4xl">
           Your partner in health, every step of the way.
           
         </h3>
         <div className="object-center justify-center flex mt-4">
-            <div className="bg-cyan-400 py-0.5 px-2 rounded-full w-50"/>
+            <div className="bg-cyan-400 py-0.5 px-2 rounded-full w-50 "/>
         </div>
 
         <div className="mx-auto mt-12 grid max-w-6xl grid-cols-1 gap-5 md:grid-cols-3">
           {whys.map((why) => (
             <div
               key={why.title}
-              className="flex gap-4 rounded-xl border-2  border-cyan-500 bg-cyan-100 p-4 text-left"
+              className="flex gap-4 rounded-xl border-2  border-cyan-500 bg-cyan-100 p-4 text-left "
             >
               <div className="h-fit shrink-0 rounded-lg bg-cyan-400  p-3 text-white">
                 <div className="h-7 w-7">{why.icon}</div>
